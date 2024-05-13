@@ -7,7 +7,7 @@ jobs:
     env:
       DEVELOCITY_INJECTION_ENABLED: true
       DEVELOCITY_URL: https://ge-helm-cluster-unstable.grdev.net/
-      DEVELOCITY_PLUGIN_VERSION: '3.18'
+      DEVELOCITY_PLUGIN_VERSION: '3.17.3'
       DEVELOCITY_CCUD_PLUGIN_VERSION: '2.0'
       DEVELOCITY_ACCESS_KEY: ${{ secrets.DEVELOCITY_ACCESS_KEY }}
     runs-on: ubuntu-latest
