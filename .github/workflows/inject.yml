@@ -24,6 +24,6 @@ jobs:
       uses: gradle/actions/setup-gradle@atual/short-lived-tokens
     - name: Run Gradle build
       id: gradle
-      run: ./gradlew build
+      run: ./gradlew help
     - name: Check Short Lived Token
       run: echo "Is it a token ? ${#DEVELOCITY_ACCESS_KEY}"
